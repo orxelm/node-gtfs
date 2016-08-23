@@ -4,8 +4,15 @@
 var mongoose = require('mongoose');
 
 var ClusterToLine = mongoose.model('ClusterToLine', new mongoose.Schema({
+    agency_key: {
+        type: String,
+        index: true
+    },
     operator_name: String,
-    office_line_id: Number,
+    office_line_id: {
+        type: Number,
+        index: true
+    },
     operator_line_id: Number,
     cluster_name: String,
     from_date: String,

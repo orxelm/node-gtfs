@@ -275,7 +275,11 @@ function main(config, callback) {
                   'min_transfer_time',
                   'wheelchair_accessible',
                   'bikes_allowed',
-                  'timepoint'
+                  'timepoint',
+                  'office_line_id',
+                  'operator_line_id',
+                  'cluster_id',
+                  'line_type'
                 ];
 
                 integerFields.forEach(function(fieldName) {
