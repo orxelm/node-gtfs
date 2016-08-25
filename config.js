@@ -8,8 +8,8 @@ module.exports = {
   agencies: [
     {
       agency_key: 'nmb',
-      // path: '/home/gtfs',
-      path: '/Users/OrElm/gtfs',
+      path: '/home/gtfs',
+      // path: '/Users/OrElm/gtfs',
       exclude: [
         'shapes', 'calendar', 'translations'
       ]
